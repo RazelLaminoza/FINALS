@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-df = pd.read_csv("Predicted_HIV_Cases_2024_2026.csv")
+df = pd.read_csv("Predicted_HIV_Cases_Each_Region.csv")
 
 # Set page config
 st.set_page_config(page_title="HIV Cases Prediction", layout="wide")
